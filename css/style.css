@@ -1,0 +1,30 @@
+.footer-div{
+    margin-top:50px;
+}
+
+.c-jumbo{
+    background-color:transparent;
+    align-self:flex-end;
+}
+
+.carousel-image{
+    opacity:0.5;
+}
+
+.active{
+    background-color:black;
+}
+
+.sitenav{
+    background-color:#ffffff;
+    padding-top:5px;
+    padding-bottom:5px;
+    box-shadow: 5px 5px 5px #999;
+    -moz-box-shadow: 5px 5px 5px #999;
+    -webkit-box-shadow: 5px 5px 5px #999;
+}
+
+.calc-container{
+    padding-top:8px;
+    margin-top: 35px;
+}
