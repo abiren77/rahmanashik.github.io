@@ -1,0 +1,10 @@
+{
+  "name": "Diet Plan Pro",
+  "short_name": "Diet Plan Pro",
+  "theme_color": "#dae4ec",
+  "background_color": "#cccccc",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/"
+}
