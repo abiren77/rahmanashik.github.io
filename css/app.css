@@ -1,0 +1,22 @@
+.app-nav{
+    background-color: #ffffff;
+    border:0px solid transparent;
+    margin-bottom: 0px;
+    box-shadow: 5px 5px 5px #999;
+    -moz-box-shadow: 5px 5px 5px #999;
+    -webkit-box-shadow: 5px 5px 5px #999;
+}
+
+.c-item{
+    background-color:black;
+}
+
+.app-jumbotron{
+    background-color:transparent;
+    align-self:flex-end;
+}
+
+.app-container{
+    padding-top:8px;
+    margin-top:15px;
+}
