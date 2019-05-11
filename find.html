@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!-- Navbar -->
+    <div class="col-lg-12"  style="background-color:#C3C3C3;">
+    <nav class="navbar navbar-expand-md">
+        <!-- logo -->
+        <a class="navbar-brand" href="index.html" style="text-decoration: none;color: white;font-size: 25px;">
+         Sseeker</a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon" style="background-image:url(images/menu.png)"></span>
+        </button>
+
+        <!-- links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item px-5">
+                    <a class="nav-link text-light font-weight-bolder" href="index.html">Home</a>
+                </li>
+                <li class="nav-item px-5">
+                    <a class="nav-link text-light font-weight-bolder" href="#">About</a>
+                </li>
+                <li class="nav-item px-5">
+                    <a class="nav-link text-light font-weight-bolder" href="sports.html">'Sports and Tips'</a>
+                </li>
+                <li class="nav-item px-5">
+                    <a class="nav-link text-light font-weight-bolder" href="#">Contacts</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+
+<!-- sports list -->
+<div class="container" style="margin-bottom: 40px;">
+    <div class="row">
+        <h4 class="text-center col-md-12">Find a game</h4>
+        <div class="col-md-8" style="">
+            <input type="text" class="col-md-12 form-control" placeholder="Search for a game...">
+        </div>
+        <div class="col-md-2" style="">
+            <button type="button" class="btn btn-success search-btn">
+                <i class="fa fa-search"></i>  Search
+            </button>
+        </div>
+    </div>
+    <div class="row mt-2 mx-1 results">
+        <div class="col-md-8">
+            <table class="table table-responsive">
+                <tr>
+                    <th>Game Name</th>
+                    <th>Game Time</th>
+                    <th>Game Location</th>
+                    <th>Gender</th>
+                    <th>Options</th>
+                </tr>
+                <tr>
+                    <td>Demo Game</td>
+                    <td>3:30 pm</td>
+                    <td>Brisbane</td>
+                    <td>Mail</td>
+                    <td>
+                        <a href="join.html" class="btn btn-secondary">Join</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
